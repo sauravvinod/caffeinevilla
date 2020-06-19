@@ -1,0 +1,142 @@
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/*navbar*/
+#topNav{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f5f5f5;
+  opacity: 0.8;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4d0000;
+  opacity: 80%;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4d0000;
+  opacity: 40%;
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4d0000;
+  opacity: 60%;
+}
+.navbar-dark .navbar-nav .nav-link:visited{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4d0000;
+  opacity: 60%;
+}
+.navbar-dark .navbar-brand{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 200%;
+  color: #4d0000;
+}
+.navbar-dark .navbar-brand:hover{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 200%;
+  color: #4d0000;
+}
+.navbar-dark .navbar-brand:focus{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 200%;
+  color: #4d0000;
+}
+.navbar-toggler{
+  background-color: #4d0000;
+
+}
+@media (min-width: 990px) {
+.navbar-brand {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: 2%;
+}
+}
+/*navbar ends*/
+
+/*wallpaper*/
+#wallpaper{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color:#5b342e;
+}
+.logo{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: 2;
+}
+.caption{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #fff;
+  background-color:#5b342e;
+  margin:2%;
+}
+.background-half-1{
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  z-index: 0;
+}
+.background-half-2{
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  z-index: 0;
+}
+.background-half-3{
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  z-index: 0;
+}
+.background-half-4{
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  z-index: 0;
+}
+@media (max-width: 770px) {
+  .background-half-3{
+    display: none;
+    position: relative;
+    z-index: 0;
+  }
+  .background-half-4{
+    display: none;
+    position: relative;
+    z-index: 0;
+  }
+  .logo{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    z-index: 2;
+  }
+}
+/*wallpaper ends*/
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+*/
