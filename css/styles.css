@@ -65,7 +65,7 @@ top: 2%;
   padding-right: 10%;
   background-color:#5b342e;
 }
-.logo{
+/* .logo{
   height: 250px;
   width: 250px;
   position: absolute;
@@ -74,17 +74,18 @@ top: 2%;
   transform: translate(-50%, -50%);
   border-radius: 100%;
   z-index: 2;
-}
-.caption{
+} */
+.logo{
+  height: 250px;
+  width: 250px;
   position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  border-radius: 100%;
   z-index: 2;
-  font-family: 'Bilbo Swash Caps', cursive;
-  color: #fff;
-  background-color:#5b342e;
-  margin:2%;
 }
 .background-half-1{
   padding-left: 0px;
@@ -121,13 +122,26 @@ top: 2%;
     position: relative;
     z-index: 0;
   }
-  .logo{
+  /* .logo{
     height: 250px;
     width: 250px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    vertical-align: middle;
+    border-radius: 100%;
+    z-index: 2;
+  } */
+  .logo{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
     border-radius: 100%;
     z-index: 2;
   }
