@@ -2,71 +2,87 @@
   padding-left: 0px;
   padding-right: 0px;
 }
+
 /*navbar*/
-#topNav{
+#topNav {
   padding-left: 10%;
   padding-right: 10%;
-  background-color: #f5f5f5;
-  opacity: 0.8;
+  background-color: #bdbcbc;
+  opacity: 1;
 }
-.navbar-dark .navbar-nav .nav-link{
+
+.navbar{
+  position: fixed; /* Make it stick/fixed */
+  top: 0px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  z-index: 3;
+}
+.navbar-dark .navbar-nav .nav-link {
   font-family: 'Josefin Sans', sans-serif;
   color: #4d0000;
   opacity: 80%;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
+
+.navbar-dark .navbar-nav .nav-link:hover {
   font-family: 'Josefin Sans', sans-serif;
   color: #4d0000;
   opacity: 40%;
 }
-.navbar-dark .navbar-nav .nav-link:focus{
+
+.navbar-dark .navbar-nav .nav-link:focus {
   font-family: 'Josefin Sans', sans-serif;
   color: #4d0000;
   opacity: 60%;
 }
-.navbar-dark .navbar-nav .nav-link:visited{
+
+.navbar-dark .navbar-nav .nav-link:visited {
   font-family: 'Josefin Sans', sans-serif;
   color: #4d0000;
   opacity: 60%;
 }
-.navbar-dark .navbar-brand{
+
+.navbar-dark .navbar-brand {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 200%;
+  font-size: 191%;
   color: #4d0000;
 }
-.navbar-dark .navbar-brand:hover{
+
+.navbar-dark .navbar-brand:hover {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 200%;
+  font-size: 191%;
   color: #4d0000;
 }
-.navbar-dark .navbar-brand:focus{
+
+.navbar-dark .navbar-brand:focus {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 200%;
+  font-size: 191%;
   color: #4d0000;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   background-color: #4d0000;
-
 }
+
 @media (min-width: 990px) {
-.navbar-brand {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  background-color: #f5f5f5;
-position: absolute;
-left: 50%;
-transform: translateX(-50%);
-top: 2%;
+  .navbar-brand {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #bdbcbc;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2%;
+  }
 }
-}
-/*navbar ends*/
 
+/*navbar ends*/
 /*wallpaper*/
-#wallpaper{
+#wallpaper {
   padding-left: 10%;
   padding-right: 10%;
-  background-color:#5b342e;
+  background-color: #5b342e;
 }
-.logo{
+
+.logo {
   height: 250px;
   width: 250px;
   position: absolute;
@@ -78,42 +94,49 @@ top: 2%;
   border-radius: 100%;
   z-index: 2;
 }
-.background-half-1{
+
+.background-half-1 {
   padding-left: 0px;
   padding-right: 0px;
   position: relative;
   z-index: 0;
 }
-.background-half-2{
+
+.background-half-2 {
   padding-left: 0px;
   padding-right: 0px;
   position: relative;
   z-index: 0;
 }
-.background-half-3{
+
+.background-half-3 {
   padding-left: 0px;
   padding-right: 0px;
   position: relative;
   z-index: 0;
 }
-.background-half-4{
+
+.background-half-4 {
   padding-left: 0px;
   padding-right: 0px;
   position: relative;
   z-index: 0;
 }
+
 @media (max-width: 770px) {
-  .background-half-3{
+  .background-half-3 {
     display: none;
     position: relative;
     z-index: 0;
   }
-  .background-half-4{
+
+  .background-half-4 {
     display: none;
     position: relative;
     z-index: 0;
   }
-  .logo{
+
+  .logo {
     height: 250px;
     width: 250px;
     position: absolute;
@@ -126,61 +149,170 @@ top: 2%;
     z-index: 2;
   }
 }
-/*wallpaper ends*/
 
+/*wallpaper ends*/
 /* introduction */
-#introduction{
+#introduction {
   padding: 7% 10%;
   text-align: center;
   background-color: #f5f5f5;
 }
-.intro-heading{
+
+.intro-heading {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 200%;
   color: #5b342e;
   text-decoration: underline;
   padding-bottom: 4%;
 }
-.intro-body{
+
+.intro-body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100%;
   color: #5b342e;
 }
-/* introduction ends */
 
+/* introduction ends */
 /* facilities */
-#facilities{
+#facilities {
   padding: 7% 10%;
   text-align: center;
   background-color: #5b342e;
 }
-.facilities-heading{
+
+.facilities-heading {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 200%;
   color: #f5f5f5;
   text-decoration: underline;
   padding-bottom: 4%;
 }
-.facilities-subheading{
+
+.facilities-subheading {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100%;
   color: #f5f5f5;
 }
-.controls-top{
-  padding:2%;
+
+.controls-top {
+  padding: 2%;
 }
-.carous-icon{
+
+.carous-icon {
   color: #f5f5f5;
 }
-.card{
+
+.card {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100%;
   color: #5b342e;
 }
-/*
-font-family: 'Acme', sans-serif;
-font-family: 'Bilbo Swash Caps', cursive;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Londrina Solid', cursive;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-*/
+
+/* facilities end */
+/* gallery */
+#gallery {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.gallery-subheading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+  color: #5b342e;
+}
+
+.controls-top {
+  padding: 2%;
+}
+
+.carous-icon-gallery {
+  color: #5b342e;
+}
+
+/* gallery end */
+/* facilities */
+#wayanad {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #5b342e;
+}
+
+.wayanad-heading {
+  padding-bottom: 4%;
+}
+
+.wayanad-subheading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+  color: #f5f5f5;
+}
+
+.controls-top {
+  padding: 2%;
+}
+
+.carous-icon {
+  color: #f5f5f5;
+}
+
+.card {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+  color: #5b342e;
+}
+
+/* facilities end */
+/* coffee */
+#coffee {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.coffee-subheading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+  color: #5b342e;
+}
+
+.coffee-pic {
+  width: 30%;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+/* coffee ends */
+/* contact */
+#contact {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #5b342e;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contact-subheading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+  color: #f5f5f5;
+}
+
+.contact-icons {
+  color: #f5f5f5;
+}
+
+.contact-body {
+  padding-top: 5%;
+}
+
+/* contact ends */
+/*Footer*/
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 4% 15%;
+}
+
+.footer-icons {
+  margin: 1rem;
+}
